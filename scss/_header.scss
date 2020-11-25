@@ -1,0 +1,122 @@
+header {
+   background-image: url(../image/header/1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 960px;
+}
+
+.header {
+   
+
+   &__block{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 21px;
+      font-weight: 700;
+      font-size: 12px;
+   }
+
+   &__box {
+      display: flex;
+      align-items: center;
+
+   }
+
+   &__list {
+      display: flex;
+      text-transform: uppercase;
+      
+
+      
+   }
+
+   &__item {
+      padding-right: 32px;
+      letter-spacing: 0.1em;
+      &:last-child {
+         padding-right: 0;
+      }
+   }
+
+   &__icon {
+      padding-left: 17px;
+      padding-right: 17px;
+      &:last-child {
+         padding-right: 0;
+         padding-left: 0;
+      }
+      &:first-child {
+         padding-left: 0;
+      }
+   }
+
+   &__leng {
+      
+      padding-right: 17px;
+      border-right: 1px solid #ffffff;
+   }
+
+   &__select {
+      text-transform: uppercase;
+      background: rgba(255,255, 255, 0.1);
+      background: none;
+      color: #ffffff;
+      border: none;
+   }
+
+   &__option {
+      background: rgba(0, 0, 0, 0.75);
+      border-radius: 3px;
+   }
+
+   &__main {
+      font-family: 'Bebas Neue', sans-serif;
+      padding-top: 250px;
+      text-align: center;
+      font-weight: 700;
+   }
+
+
+   &__title {
+      font-size: 80px;
+      letter-spacing: 3px;
+   }
+
+   &__subtitle {
+      font-size: 24px;
+      letter-spacing: 2px;
+      padding-bottom: 29px;
+   }
+
+   &__btn {
+      width: 260px;
+      height: 60px;
+      background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Open Sans', sans-serif;
+      border: none;
+      color: #1A1917;
+   }
+
+
+   &__span {
+      border-right: 1px solid#1A1917;
+      padding-right: 10px;
+   }
+
+   &__footer {
+      padding-top: 250px;
+      text-align: center;
+   }
+   
+   
+   
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}

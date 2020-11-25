@@ -1,0 +1,150 @@
+header {
+  background-image: url(../image/header/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 960px;
+}
+
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 21px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  text-transform: uppercase;
+}
+
+.header__item {
+  padding-right: 32px;
+  letter-spacing: 0.1em;
+}
+
+.header__item:last-child {
+  padding-right: 0;
+}
+
+.header__icon {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.header__icon:last-child {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header__icon:first-child {
+  padding-left: 0;
+}
+
+.header__leng {
+  padding-right: 17px;
+  border-right: 1px solid #ffffff;
+}
+
+.header__select {
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.1);
+  background: none;
+  color: #ffffff;
+  border: none;
+}
+
+.header__option {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+}
+
+.header__main {
+  font-family: 'Bebas Neue', sans-serif;
+  padding-top: 250px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.header__title {
+  font-size: 80px;
+  letter-spacing: 3px;
+}
+
+.header__subtitle {
+  font-size: 24px;
+  letter-spacing: 2px;
+  padding-bottom: 29px;
+}
+
+.header__btn {
+  width: 260px;
+  height: 60px;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  color: #1A1917;
+}
+
+.header__span {
+  border-right: 1px solid #1A1917;
+  padding-right: 10px;
+}
+
+.header__footer {
+  padding-top: 250px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+input:hover, button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #E2B024;
+  border-bottom: 1px solid #E2B024;
+  padding-bottom: 10px;
+  transition-duration: 100ms;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
