@@ -1,0 +1,39 @@
+.features {
+   background: url(../image/features/3.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 960px;
+   position: relative;
+   &__box {
+      width: 410px;
+      padding-bottom: 28px;
+   }
+
+   &__minititle {
+      font-family: 'Bebas Neue', sans-serif;
+      color: #FFB548;
+      font-size: 36px;
+      font-weight: 700;
+      padding-bottom: 5px;
+      letter-spacing: 2px;
+   }
+
+   &__minitext {
+      text-align: justify;
+      font-size: 18px;
+   }
+
+   &__block {
+      position: absolute;
+      top: 160px;
+      right: 23%;
+   }
+
+   &__title {
+      padding-bottom: 70px;
+   }
+
+   &__subtitle {
+      padding-bottom: 8px;
+   }
+}
