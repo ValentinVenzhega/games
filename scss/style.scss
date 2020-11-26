@@ -1,4 +1,5 @@
 @import 'header';
+@import 'battle';
 
 
 body {
@@ -26,8 +27,8 @@ a {
    text-decoration: none;
    color: #ffffff;
    &:hover {
-      color: #E2B024;
-      border-bottom: 1px solid #E2B024;
+      color: #FFB548;
+      border-bottom: 1px solid #FFB548;
       padding-bottom: 10px;
       transition-duration: 100ms;
    }	

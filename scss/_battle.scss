@@ -1,0 +1,64 @@
+.battle {
+   background: linear-gradient(180deg, #000000 1.42%, rgba(0, 0, 0, 0) 60.63%, #000000 99.1%), linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../image/battle/2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 960px;
+   position: relative;
+   // background: radial-gradient(180deg, #0F0F0F 10.42%, rgba(0, 0, 0, 0) 60.63%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%), url(../image/battle/2.jpg);
+   
+
+
+
+
+   &__block {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 228px;
+      padding-bottom: 175px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: 'Bebas Neue', sans-serif;
+      z-index: 3;
+   }
+
+   &__title {
+      // font-family: 'Bebas Neue', sans-serif;
+      line-height: 80px;
+      max-width: 415px;
+      padding-bottom: 78px;
+   }
+
+   &__subtitle {
+      padding-bottom: 0;
+   }
+
+   &__text {
+      text-transform: none;
+      font-weight: 400;
+      font-family: 'Open Sans', sans-serif;
+      max-width: 365px;
+      text-align: justify;
+      padding-left: 195px;
+      font-size: 18px;
+   }
+
+   &__img {
+      height: 563px;
+      width: 438px;
+   }
+
+   &__box-pos {
+      display: flex;
+      // justify-content: space-between;
+      align-items: center;
+      
+   }
+
+   &__link {
+      padding-left: 60px;
+      transform: rotate(-90deg);
+   }
+}
+
+

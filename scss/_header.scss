@@ -68,11 +68,16 @@ header {
    &__option {
       background: rgba(0, 0, 0, 0.75);
       border-radius: 3px;
+
+      &:hover {
+         color: #FFB548;
+         cursor: pointer;
+      }
    }
 
    &__main {
       font-family: 'Bebas Neue', sans-serif;
-      padding-top: 250px;
+      padding-top: 215px;
       text-align: center;
       font-weight: 700;
    }
@@ -108,8 +113,10 @@ header {
    }
 
    &__footer {
-      padding-top: 250px;
+      padding-top: 362px;
       text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
    }
    
    
