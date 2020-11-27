@@ -133,14 +133,13 @@ header {
   align-items: center;
   padding-top: 228px;
   padding-bottom: 175px;
-  text-transform: uppercase;
-  z-index: 3;
 }
 
 .battle__title {
   line-height: 80px;
   max-width: 415px;
   padding-bottom: 78px;
+  text-transform: uppercase;
 }
 
 .battle__subtitle {
@@ -148,7 +147,6 @@ header {
 }
 
 .battle__text {
-  text-transform: none;
   max-width: 365px;
   text-align: justify;
   padding-left: 195px;
@@ -210,6 +208,138 @@ header {
 
 .features__subtitle {
   padding-bottom: 8px;
+}
+
+.system {
+  background: radial-gradient(45.26% 65% at 65.32% 67.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 10.22%, #080A0B 99.74%), url(../image/system/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 960px;
+  position: relative;
+  padding-top: 245px;
+  text-align: center;
+}
+
+.system__subtitle {
+  padding-bottom: 8px;
+}
+
+.system__title {
+  padding-bottom: 283px;
+}
+
+.system__minititle {
+  text-align: left;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  color: #FFB548;
+  letter-spacing: 2px;
+  font-weight: 700;
+  padding-bottom: 6px;
+}
+
+.system__text {
+  text-align: left;
+  font-size: 18px;
+}
+
+table {
+  width: 580px;
+  border-collapse: collapse;
+  border: 1px solid #979797;
+}
+
+tr {
+  border: 1px solid #979797;
+}
+
+td {
+  padding: 20px 10px;
+  border: 1px solid #979797;
+}
+
+.press {
+  background: #000000;
+}
+
+.press__block {
+  padding-top: 159px;
+  justify-content: space-between;
+}
+
+.press__img {
+  border-radius: 50%;
+}
+
+.press__img1 {
+  width: 65px;
+  height: 65px;
+}
+
+.press__subtitle {
+  padding-bottom: 8px;
+}
+
+.press__title {
+  padding-bottom: 60px;
+}
+
+.press__text {
+  width: 434px;
+  text-align: justify;
+  padding-bottom: 37px;
+  font-size: 18px;
+}
+
+.press__minitext {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.press__mintext {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.press__minititle {
+  line-height: 24px;
+  color: #FFB548;
+  text-transform: uppercase;
+}
+
+.press__minisubtitle {
+  font-size: 22px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.press__sign {
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.press__icon {
+  padding-left: 235px;
+}
+
+.press__minibox {
+  width: 452px;
+  height: 182px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.press__minibox1 {
+  display: flex;
+  padding-bottom: 26px;
+}
+
+.press__minibox-pos {
+  margin-left: -80px;
 }
 
 body {

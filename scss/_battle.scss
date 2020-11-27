@@ -11,14 +11,13 @@
       align-items: center;
       padding-top: 228px;
       padding-bottom: 175px;
-      text-transform: uppercase;
-      z-index: 3;
    }
 
    &__title {
       line-height: 80px;
       max-width: 415px;
       padding-bottom: 78px;
+      text-transform: uppercase;
    }
 
    &__subtitle {
@@ -26,7 +25,6 @@
    }
 
    &__text {
-      text-transform: none;
       max-width: 365px;
       text-align: justify;
       padding-left: 195px;

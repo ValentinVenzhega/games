@@ -1,0 +1,84 @@
+.press {
+   background: #000000;
+
+   &__block {
+      padding-top: 159px;
+      justify-content: space-between;
+   }
+
+   &__img {
+      border-radius: 50%;
+
+      &1 {
+         width: 65px;
+         height: 65px;
+      }
+   }
+
+   &__subtitle {
+      padding-bottom: 8px;
+   }
+
+   &__title {
+      padding-bottom: 60px;
+   }
+
+   &__text {
+      width: 434px;
+      text-align: justify;
+      padding-bottom: 37px;
+      font-size: 18px;
+   }
+
+   &__minitext {
+      padding-left: 20px;
+      padding-bottom: 20px;
+      
+   }
+
+   &__mintext {
+      padding-bottom: 20px;
+      font-size: 18px;
+   }
+
+   &__minititle {
+      line-height: 24px;
+      color: #FFB548;
+      text-transform: uppercase;
+   }
+
+   &__minisubtitle {
+      font-size: 22px;
+      color: #FFFFFF;
+      opacity: 0.5;
+   }
+
+   &__sign {
+      color: #FFFFFF;
+      opacity: 0.5;
+      font-size: 14px;
+   }
+
+   &__icon {
+      padding-left: 235px;
+   }
+
+   &__minibox {
+      width: 452px;
+      height: 182px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      margin-bottom: 30px;
+      padding-top: 20px;
+      padding-left: 20px;
+
+      &1 {
+         display: flex;
+         padding-bottom: 26px;
+      }
+
+      &-pos {
+         margin-left: -80px;
+      }
+   }
+}

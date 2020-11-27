@@ -1,0 +1,49 @@
+.system {
+   background: radial-gradient(45.26% 65% at 65.32% 67.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 10.22%, #080A0B 99.74%), url(../image/system/4.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 960px;
+   position: relative;
+   padding-top: 245px;
+   text-align: center;
+
+   &__subtitle {
+      padding-bottom: 8px;
+   }
+
+   &__title {
+      padding-bottom: 283px;
+   }
+
+   &__minititle {
+      text-align: left;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 24px;
+      color: #FFB548;
+      letter-spacing: 2px;
+      font-weight: 700;
+      padding-bottom: 6px;
+   }
+
+   &__text {
+      text-align: left;
+      font-size: 18px;
+
+   } 
+
+}
+
+table {
+   width: 580px;
+   border-collapse: collapse;
+   border: 1px solid #979797;
+}
+
+tr {
+   border: 1px solid #979797;
+}
+
+td {
+   padding: 20px 10px;
+   border: 1px solid #979797;
+}
