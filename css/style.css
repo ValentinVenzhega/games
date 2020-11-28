@@ -317,20 +317,23 @@ td {
   color: #FFFFFF;
   opacity: 0.5;
   font-size: 14px;
+  padding-bottom: 20px;
 }
 
 .press__icon {
-  padding-left: 235px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
 }
 
 .press__minibox {
   width: 452px;
-  height: 182px;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   margin-bottom: 30px;
   padding-top: 20px;
   padding-left: 20px;
+  position: relative;
 }
 
 .press__minibox1 {
@@ -340,6 +343,77 @@ td {
 
 .press__minibox-pos {
   margin-left: -80px;
+}
+
+.subscribe__block {
+  padding-top: 50px;
+}
+
+.subscribe__input {
+  width: 346px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  border: none;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.subscribe__text {
+  width: 600px;
+  padding-bottom: 70px;
+}
+
+.subscribe__title {
+  padding-bottom: 48px;
+}
+
+footer {
+  background: #000000;
+}
+
+.footer__one {
+  padding-bottom: 22px;
+}
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+  padding-top: 22px;
+  padding-bottom: 30px;
+}
+
+.footer__text {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.footer__minibox {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.footer__minibox:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+
+.footer__minibox:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+
+.footer__icon {
+  width: 26px;
+}
+
+.footer__icon:last-child {
+  padding-left: 17px;
 }
 
 body {

@@ -57,20 +57,23 @@
       color: #FFFFFF;
       opacity: 0.5;
       font-size: 14px;
+      padding-bottom: 20px;
    }
 
    &__icon {
-      padding-left: 235px;
+      position: absolute;
+      top: 20px;
+      right: 10px;
    }
 
    &__minibox {
       width: 452px;
-      height: 182px;
       background: rgba(255, 255, 255, 0.08);
       border-radius: 10px;
       margin-bottom: 30px;
       padding-top: 20px;
       padding-left: 20px;
+      position: relative;
 
       &1 {
          display: flex;

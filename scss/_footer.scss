@@ -1,0 +1,53 @@
+footer {
+   background: #000000;
+}
+
+.footer {
+   
+
+
+   &__one {
+      padding-bottom: 22px;
+   }
+
+   &__block {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid grey;
+      padding-top: 22px;
+      padding-bottom: 30px;
+      
+   }
+
+   &__text {
+      font-size: 14px;
+      opacity: 0.5;
+   }
+
+   &__minibox {
+      padding-right: 10px;
+      padding-left: 10px;
+      border-right: 1px solid #ffffff;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+
+      &:last-child {
+         padding-right: 0;
+         border-right: none;
+      }
+
+      &:first-child {
+         padding-left: 0;
+         border-left: none;
+      }
+   }
+
+   &__icon {
+      width: 26px;
+
+      &:last-child {
+         padding-left: 17px;
+      }
+   }
+}
