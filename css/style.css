@@ -157,6 +157,7 @@ header {
 .battle__img {
   height: 563px;
   width: 438px;
+  border-radius: 8px;
 }
 
 .battle__box-pos {
@@ -165,7 +166,7 @@ header {
 }
 
 .battle__link {
-  padding-left: 60px;
+  padding-top: 30px;
   transform: rotate(-90deg);
 }
 
@@ -440,7 +441,7 @@ a {
 }
 
 a:hover {
-  color: #FFB548;
+  color: grey;
   border-bottom: 1px solid #FFB548;
   padding-bottom: 10px;
   transition-duration: 100ms;
@@ -452,5 +453,10 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+button:hover {
+  background: #e09627;
+  box-shadow: 0 0 5px rgba(255, 251, 0, 0.904);
 }
 /*# sourceMappingURL=style.css.map */
